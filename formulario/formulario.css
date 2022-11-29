@@ -1,0 +1,79 @@
+.boton-diplomados{
+    color: firebrick;
+    font-size: 2em;
+    text-decoration: none;
+    background-color: beige;
+    padding: 8px 12px 8px 12px;
+    margin: 30px 0  0px 60px   ;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 6px 6px 6px 6px #000;
+
+               
+}
+
+.boton-diplomados:hover{
+    color: red;
+}
+
+form{
+    margin: auto;
+    max-width: 1000px;
+    background-color: #ffff;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    margin-top: 3em;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+label{
+    width: 100%
+    
+}
+input, textarea{
+    width: 100%;
+    margin: 1em 0 1em 0;
+    padding: 0.6em;
+    border: none;
+    border: 3px solid red;
+    border-radius: 3px;
+}
+
+textarea{
+    max-height: 350px;
+    min-height: 300px;
+    border: none;
+    border: 3px solid red;
+    border-radius: 3px;
+    
+}
+
+.boton{
+    background-color: red;
+    color: #ffff;
+    padding: .8em;
+    border-radius: 3px;
+    
+}
+.boton:hover{
+    color: red;
+}
+
+.Nombre{
+    color: red;
+}
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    left: 30px;
+    background: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+  }
