@@ -96,6 +96,23 @@
     object-fit: cover;
     opacity: .4;
 }
+.btn-primary{
+    text-decoration: none;
+    color: red;
+    display: block;
+    text-align: center;
+    border-radius: 7px;
+    border: 2px solid red;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    background: none;
+}
+.primary:hover{
+    color: red;
+}
 
 /* estilos de especializacion */
 
