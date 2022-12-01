@@ -37,17 +37,11 @@ nav{
     color: white;
 }
 
-
-
-
-
 footer p.h5{
     text-align: justify;
     padding-left: 30%;  
 }
-main{
-    color: white;
-}
+
 .main, p{
     color: white;
 }
@@ -56,16 +50,15 @@ main{
 }
 
 
-footer a{
+footer .main{
     margin: auto;
     text-decoration: none;
-    color: black;
     padding-left: 30%;
 } 
 
-footer a:hover{
+/* footer, .enlace:hover{
     color: black;
-}
+} */
 footer{
     padding-bottom: 30px;
     background-color: black;
@@ -111,15 +104,33 @@ input{
     font-weight: 2px;
     display: block;
 }
-.btn{
+/* .btn{
     color: red;
     background-color: white;
     border: 1px solid red;
     text-align: center;
     display: block;
-}
+} */
 h5{
     text-align: center;
     font-size: 15px;
     text-decoration: underline;
 }
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    left: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+  }
+  .btn-wsp:hover{
+    color: white;
+  }
