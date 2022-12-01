@@ -1,5 +1,6 @@
 nav{
     margin-bottom: 100px;
+    background-color: white;
 }
 .enlace{
     color: black;
@@ -90,4 +91,35 @@ footer{
 .texto3{
     margin-left: 5px;
     color: red;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 5px;
+    text-align: center;
+}
+img{
+    border-radius: 5px;
+}
+
+input{
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    color: red;
+    font-weight: 2px;
+    display: block;
+}
+.btn{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    text-align: center;
+    display: block;
+}
+h5{
+    text-align: center;
+    font-size: 15px;
+    text-decoration: underline;
 }
