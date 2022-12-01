@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../tarea-metodo-s14/img/fondo-login.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+   background-color: white;
+   width: 50%;
+   padding: 1.5em;
+   border: 3px solid red;
+   margin: 10em;
+   max-width: 1000px;
+   box-shadow: 15em;
+   box-shadow: 4px 4px 20px black;
+   
+   
+   
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    width: 20%;
+    margin: 5px 10px 5px 270px;
+}
+input{
+    display: block;
+    width: 100%;
+    margin: 0.5em 0 0.5em 0;
+    padding: .5em;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid red;
+
+  
+}
+label{
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+}
+.boton{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 1em;
+   
+}
+.boton:hover{
+    background-color: black;
+}
+a{
+    padding-left: 35%;
+    color: red;
+}
