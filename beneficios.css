@@ -1,0 +1,307 @@
+*{
+    font-family: 'Poppins';
+}
+
+/*ESTILOS PORTADA*/
+
+.img2{
+    width: 100%;
+    filter: blur(0.2) grayscale(0.9); /* Desenfocar */
+    transition: .3s; 
+    filter: none;
+}
+
+.img3:hover{
+    transform: scale(1.2);
+    filter: brightness(0.3);  /* Brillo(Oscurecer)/(Aclarar) */ 
+    filter: contrast(0.9); /* Contraste de imagen */
+    filter: opacity(0.7);  /* Cambia de opacidad */
+    filter: saturate(20 /* Fucionar color + imagen */0%);
+    filter: sepia(0.5);
+    filter: invert(0.8); /* Invertir colores */
+}
+
+/* INICIO DE FUSIÓN */
+
+.main-banner{
+    position: relative;
+    padding: 30em 18em;
+    background: linear-gradient(to right rgb(0, 0, 243), rgb(0, 0, 250));
+    filter: brightness(0.8);
+}
+.main-banner::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: blue;
+    mix-blend-mode: overlay;
+    opacity: .8;
+}
+
+.main-banner-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: .5;
+}
+
+.adjuntar {
+    text-align: center;
+    position: relative;
+}
+
+.titulo{
+    position: relative;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.5em;
+    text-align: center;
+    font-weight: 1000;
+    font-family: "lato";
+}
+
+.parrafo{
+    position: relative;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.boton1{
+    position: relative;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px; 
+    margin-left: 500px ;
+    
+}
+
+.boton{
+    position: relative;
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+   
+}
+
+/* estilos de cursos */
+
+.main2-banner{
+    position: relative;
+    padding: 30em 18em;
+    background: linear-gradient(to right rgb(0, 0, 243), rgb(0, 0, 250));
+    filter: brightness(0.8);
+}
+.main2-banner::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: blue;
+    mix-blend-mode: overlay;
+    opacity: .9;
+}
+.main2-banner-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: .4;
+}
+
+/* estilos de especializacion */
+
+.main3-banner{
+    position: relative;
+    padding: 30em 18em;
+    background: linear-gradient(to right rgb(0, 0, 243), rgb(0, 0, 250));
+    filter: brightness(0.8);
+}
+.main3-banner::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: blue;
+    mix-blend-mode: overlay;
+    opacity: .9;
+}
+.main3-banner-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: .5;
+}
+
+/*ESTILOS SECCIONES*/
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+.img1{
+    border-radius: 5px;
+}
+
+h5{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline rgb(0, 157, 255) ;
+}
+.img2{
+    border-radius: 3px 3px 0 0;
+}
+section{
+    border-radius: 5px;
+    border: 2px solid rgb(225, 222, 222);
+    margin-bottom: 20px;
+}
+.a1{
+    text-decoration: none;
+    color: red;
+    display: block;
+    text-align: center;
+    border-radius: 7px;
+    border: 2px solid red;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+.a1:hover{
+    color: red;
+}
+.boton-cursos{
+    padding: 25px 30px;
+    border-radius: 5px;
+    border: 2px solid red;
+    text-decoration: none;
+    color: red;
+    margin-left: 800px;
+}
+.boton-cursos:hover{
+    color: red;
+}
+
+
+/* ESTILOS NAV*/
+
+nav{
+    margin-bottom: 100px;
+    background-color: white;
+}
+.enlace{
+    color: black;
+    text-decoration: none;  
+    margin: 0 0 0 100px;
+}
+.imagen{
+    margin: 0 400px 0 100px;
+}
+
+/*ESTILOS FOOTER */
+
+.pie_pagina{
+    padding: 20px 0px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.pie_pagina .redes_sociales{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.pie_pagina .redes_sociales i{
+    color: white;
+    font-size: 30px;
+    padding: 0px 25px;
+}
+
+.pie_pagina, .pie_texto{
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+
+
+
+
+
+footer p.h5{
+    text-align: justify;
+    padding-left: 30%;  
+}
+main{
+    color: white;
+}
+.main, p{
+    color: white;
+}
+.main:hover{
+    color: red;
+}
+
+
+footer a{
+    margin: auto;
+    text-decoration: none;
+    color: black;
+    padding-left: 30%;
+} 
+
+footer a:hover{
+    color: black;
+}
+footer{
+    padding-bottom: 30px;
+    background-color: black;
+    padding: 30px 0 60px 0;
+    margin-top: 50px;
+  }
+.icono{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    margin: 0 0 0 100px;
+}
+.pie_pagina{
+    background-color: rgb(24, 22, 22);
+    display: flex;
+    padding: 5px 0 1px 0;
+}
+.texto1{
+    margin-left: 50px;
+}
+.texto2{
+    margin-left: 1000px;
+}
+.texto3{
+    margin-left: 5px;
+    color: red;
+}
