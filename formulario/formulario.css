@@ -1,3 +1,121 @@
+
+
+:root{
+    --color-primario: #ec111a;
+    --color-secundario: #082ba5;
+    --color-sombras: #282d31;
+    --color-titulos: #282d31;
+    --color-text: #53575a;
+    --color-fondo: #fcfcfc;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: var(--color-fondo);
+
+}
+
+header{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 3px var(--color-sombras);
+
+}
+
+nav{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu .logo img{
+    height: 60px; 
+}
+
+.menu .btn-menu{
+    display: none;
+    color: var(--color-primario);
+    text-size: none;
+    font - size: 1.6em; 
+
+}
+
+.menu .enlances a{
+    color: var(--color-text);
+    display: inline-block;
+    padding: 1.6em;
+    text-align: center;
+    font-size: .8em;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    font-weigth: 400;
+
+}
+
+.menu .enlances a:hover{
+    color:var(--color-primario);
+
+}
+.headroom {
+    
+    transition: transform 0.3s ease;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+
+
+
+*/ estilos css para movil, utilizando responsive web desing */
+
+@media screen and (max-width:1023px){
+
+    header .menu{
+        flex-direction: column;
+    }
+
+    header .menu .logo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header.menu .logo .btn-menu{
+        display: :inline-block;
+        margin-top: .4em;
+
+    }
+
+    header .menu .enlances{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+} 
+
+
+
 .boton-diplomados{
     color: firebrick;
     font-size: 2em;
