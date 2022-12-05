@@ -55,11 +55,10 @@
     text-align: center;
     position: relative;
 }
-.title{
+.titulo1{
     color: white;
     position: relative;
-    font-family: 'Poppins';
-    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
 
 }
 
