@@ -143,12 +143,12 @@
     object-fit: cover;
     opacity: .5;
 }
-<<<<<<< HEAD
+ 
 .btn-cent{
     text-align: center;
     
-    
-=======
+ }   
+
 
 
 h5{
@@ -346,5 +346,5 @@ input{
     color: red;
     font-weight: 2px;
     display: block;
->>>>>>> bd48f9c6629f42f172055c7174d0e229538d882a
+
 }
