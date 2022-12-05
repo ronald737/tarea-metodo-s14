@@ -32,3 +32,9 @@ h5{
     text-decoration: underline;
     text-decoration-color: blue;
 }
+.prueba{
+    color: white;
+}
+.prueba:hover{
+    color: red;
+}
