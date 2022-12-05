@@ -58,9 +58,9 @@
 .title{
     color: white;
     position: relative;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-weight: 900;
-
+    font-size: 3em;
 }
 
 .parrafo{
