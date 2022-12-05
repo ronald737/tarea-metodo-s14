@@ -55,15 +55,12 @@
     text-align: center;
     position: relative;
 }
-
-.titulo{
+.title{
+    color: white;
     position: relative;
-    color:white;
-    font-family: 'Lato', sans-serif;
-    font-size: 3.5em;
-    text-align: center;
-    font-weight: 1000;
-    font-family: "lato";
+    font-family: 'Poppins';
+    font-weight: 900;
+
 }
 
 .parrafo{
@@ -72,6 +69,7 @@
     font-size: 1.5em;
     text-align: center;
     font-family: 'Poppins';
+    font-weight: 400;
 }
 
 /* .boton1{
@@ -79,17 +77,23 @@
     background-color: red;
     text-decoration: none;
     color: white;
+    font-family: 'Poppins';
     padding: 10px;
     border-radius: 5px; 
     margin-left: 500px ;
     
 } */
 
+<<<<<<< HEAD
 /* .boton{
+=======
+.boton2{
+>>>>>>> bd48f9c6629f42f172055c7174d0e229538d882a
     position: relative;
     background-color: red;
     text-decoration: none;
     color: white;
+    font-family: 'Poppins';
     padding: 10px;
     border-radius: 5px;
     position: relative;
@@ -161,6 +165,7 @@ h1{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 40px;
+    font-family: 'Poppins';
 }
 .img1{
     border-radius: 5px;
@@ -195,6 +200,11 @@ section{
 .a1:hover{
     color: red;
 }
+.container .row a:hover{
+    background-color: red;
+    color: white;
+}
+
 .boton-cursos{
     padding: 25px 30px;
     border-radius: 5px;
@@ -206,7 +216,8 @@ section{
     font-weight: 400;
 }
 .boton-cursos:hover{
-    color: red;
+    color: white;
+    background-color: red;
 }
 
 
