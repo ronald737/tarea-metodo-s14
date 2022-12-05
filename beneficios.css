@@ -195,6 +195,11 @@ section{
 .a1:hover{
     color: red;
 }
+.container .row a:hover{
+    background-color: red;
+    color: white;
+}
+
 .boton-cursos{
     padding: 25px 30px;
     border-radius: 5px;
@@ -206,7 +211,8 @@ section{
     font-weight: 400;
 }
 .boton-cursos:hover{
-    color: red;
+    color: white;
+    background-color: red;
 }
 
 
