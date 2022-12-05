@@ -201,37 +201,19 @@ section{
 }
 
 .boton-cursos{
-    padding: 25px 30px;
+    text-align: center;
     border-radius: 5px;
     border: 2px solid red;
     text-decoration: none;
     color: red;
-    margin-left: 800px;
     font-family: 'Poppins';
-    font-weight: 400;
+    display: block;
+    padding: 16px 14px 16px 14px;
 }
 .boton-cursos:hover{
     color: white;
     background-color: red;
 }
-
-
-/* ESTILOS NAV*/
-
-/* nav{
-    margin-bottom: 100px;
-    background-color: white;
-}
-.enlace{
-    color: black;
-    text-decoration: none;  
-    margin: 0 0 0 100px;
-}
-.imagen{
-    margin: 0 400px 0 100px;
-} */
-
-/*ESTILOS FOOTER */
 
 .pie_pagina{
     padding: 20px 0px;
