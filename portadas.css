@@ -734,6 +734,7 @@ footer{
     margin-left: 5px;
     color: red;
 }
+<<<<<<< Updated upstream
 
 
 
@@ -778,3 +779,11 @@ h5{
 /*contactos*/
 
 
+=======
+.prueba{
+    color: #fff;
+}
+.prueba:hover{
+    color: red;
+}
+>>>>>>> Stashed changes
