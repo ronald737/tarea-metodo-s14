@@ -72,6 +72,7 @@
     color: white;
     font-size: 2em;
     margin: 4px;
+    font-family: 'Poppins';
     background-size: cover;
     
 }
@@ -309,8 +310,7 @@ nav{
     text-align: center;
     font-size: .8em;
     text-transform: uppercase;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+
 
 } 
 .menu .enlaces a:hover{
