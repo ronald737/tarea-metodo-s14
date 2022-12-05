@@ -72,6 +72,7 @@
     font-size: 1.5em;
     text-align: center;
     font-family: 'Poppins';
+    font-weight: 400;
 }
 
 .boton1{
@@ -161,6 +162,7 @@ h1{
     text-align: center;
     margin-top: 50px;
     margin-bottom: 40px;
+    font-family: 'Poppins';
 }
 .img1{
     border-radius: 5px;
