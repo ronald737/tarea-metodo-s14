@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/fondo-login.jpg);
+    background-size: cover;
+}
+
+.cajita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.formulario{
+    position: absolute;
+    top: 200px;
+    background-color: white;
+    width: 100%;
+    padding: 1.5em;
+    border: 3px solid red;
+    margin: 0 500px 0 500px;
+    max-width: 800px;
+    box-shadow: 15em;
+    box-shadow: 4px 4px 20px black;
+ }
+ 
+ .logotipo{
+     width: 20%;
+     margin: 5px 300px;
+ }
+ .login{
+    width: 100%;
+ }
+ input{
+     display: block;
+     width: 100%;
+     margin: 0.5em 0 0.5em 0;
+     padding: .5em;
+     border-radius: 5px;
+     border: none;
+     border: 1px solid red;
+ }
+ label{
+     width: 100%;
+ }
+ 
+ h1{
+     text-align: center;
+ }
+ .boton{
+     background-color: red;
+     color: white;
+     border: none;
+     padding: 1em;
+    
+ }
+ .boton:hover{
+     background-color: black;
+ }
+ .contraseña{
+     padding-left: 38%;
+     color: red;
+ }
