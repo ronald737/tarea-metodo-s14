@@ -115,6 +115,7 @@ h5{
     text-align: center;
     font-size: 15px;
     text-decoration: underline;
+    text-decoration-color: blue;
 }
 .btn-wsp{
     position: fixed;
