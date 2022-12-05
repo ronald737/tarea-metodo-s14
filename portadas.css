@@ -316,6 +316,10 @@ nav{
 .menu .enlaces a:hover{
     color: var(--color-primario);
 }
+.enlaces{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
 
 /* interactividad js */
 .headroom {
