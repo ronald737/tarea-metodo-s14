@@ -76,7 +76,7 @@
 
 /* estilos de cursos */
 
-.main2-banner{
+/* .main2-banner{
     position: relative;
     padding: 30em 18em;
     background: linear-gradient(to right rgb(0, 0, 243), rgb(0, 0, 250));
@@ -101,11 +101,11 @@
     left: 0;
     object-fit: cover;
     opacity: .4;
-}
+} */
 
 /* estilos de especializacion */
 
-.main3-banner{
+/* .main3-banner{
     position: relative;
     padding: 30em 18em;
     background: linear-gradient(to right rgb(0, 0, 243), rgb(0, 0, 250));
@@ -133,7 +133,7 @@
 }
 
 /*ESTILOS SECCIONES*/
-/*
+
 h1{
     text-align: center;
     margin-top: 50px;
@@ -272,4 +272,4 @@ footer{
 .texto3{
     margin-left: 5px;
     color: red;
-} */
+}
