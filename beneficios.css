@@ -1,6 +1,6 @@
-/* *{
+*{
     font-family: 'Poppins';
-} */
+} 
 
 /*ESTILOS PORTADA*/
 
@@ -191,6 +191,7 @@ section{
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 15px;
+    background: none;
 }
 .a1:hover{
     color: red;
