@@ -1,6 +1,6 @@
-*{
+/* *{
     font-family: 'Poppins';
-}
+} */
 
 /*ESTILOS PORTADA*/
 
@@ -202,6 +202,8 @@ section{
     text-decoration: none;
     color: red;
     margin-left: 800px;
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 .boton-cursos:hover{
     color: red;
