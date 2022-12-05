@@ -142,3 +142,201 @@
     object-fit: cover;
     opacity: .5;
 }
+
+
+h5{
+    text-align: center;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+
+.boton-diplomados{
+    color: firebrick;
+    font-size: 2em;
+    text-decoration: none;
+    background-color: beige;
+    padding: 8px 12px 8px 12px;
+    margin: 30px 0  0px 60px   ;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 6px 6px 6px 6px #000;
+
+               
+}
+
+.boton-diplomados:hover{
+    color: red;
+}
+
+form{
+    margin: auto;
+    max-width: 1000px;
+    background-color: #ffff;
+    box-shadow: 2px 2px 10px rgb(0, 0, 0);
+    margin-top: 3em;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+label{
+    width: 100%
+    
+}
+input, textarea{
+    width: 100%;
+    margin: 1em 0 1em 0;
+    padding: 0.6em;
+    border: none;
+    border: 3px solid red;
+    border-radius: 3px;
+}
+
+textarea{
+    max-height: 350px;
+    min-height: 300px;
+    border: none;
+    border: 3px solid red;
+    border-radius: 3px;
+    
+}
+
+.boton{
+    background-color: red;
+    color: #ffff;
+    padding: .8em;
+    border-radius: 3px;
+    
+}
+.boton:hover{
+    color: red;
+}
+
+.Nombre{
+    color: red;
+}
+
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    left: 30px;
+    background-color: #0df053;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index: 100;
+  }
+
+  /* ESTILOS NAV*/
+
+nav{
+    margin-bottom: 100px;
+    background-color: white;
+}
+.enlace{
+    color: black;
+    text-decoration: none;  
+    margin: 0 0 0 100px;
+}
+.imagen{
+    margin: 0 400px 0 100px;
+}
+
+
+.pie_pagina{
+    padding: 20px 0px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.pie_pagina .redes_sociales{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.pie_pagina .redes_sociales i{
+    color: white;
+    font-size: 30px;
+    padding: 0px 25px;
+}
+
+.pie_pagina, .pie_texto{
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+
+footer p.h5{
+    text-align: justify;
+    padding-left: 30%;  
+}
+
+.main, p{
+    color: white;
+}
+.main:hover{
+    color: red;
+}
+
+
+footer .main{
+    margin: auto;
+    text-decoration: none;
+    padding-left: 30%;
+} 
+
+/* footer, .enlace:hover{
+    color: black;
+} */
+footer{
+    padding-bottom: 30px;
+    background-color: black;
+    padding: 30px 0 60px 0;
+  }
+.icono{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    margin: 0 0 0 100px;
+}
+.pie_pagina{
+    background-color: rgb(24, 22, 22);
+    display: flex;
+    padding: 5px 0 1px 0;
+}
+.texto1{
+    margin-left: 50px;
+}
+.texto2{
+    margin-left: 1000px;
+}
+.texto3{
+    margin-left: 5px;
+    color: red;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 5px;
+    text-align: center;
+}
+img{
+    border-radius: 5px;
+}
+
+input{
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    color: red;
+    font-weight: 2px;
+    display: block;
+}
