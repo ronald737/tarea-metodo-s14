@@ -82,15 +82,212 @@ textarea{
 
   /* ESTILOS NAV*/
 
-nav{
-    margin-bottom: 100px;
-    background-color: white;
+  :root{
+    --color-primario: #EC111A;
+    --color-secuandrio: #082BA5;
+    --color-sombras: #282d31;
+    --color-titulos: #282d31;
+    --color-text: #23575a;
+    --color-fondo: #fcfcfc;
 }
-.enlace{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-fondo);
+
+}
+header{
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 3px var(--color-sombras);
+
+}
+nav{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu .logo img{
+    height: 60px;
+
+}
+.menu .btn-menu{
+    display: none;
+    color: var(--color-primario);
+    text-decoration: none;
+    font-size: 1.6em;
+
+}
+.menu .enlaces a{
+    text-decoration: none;
+    color: var(--color-text);
+    display: inline-block;
+    padding: 1.6em;
+    text-align: center;
+    font-size: .8em;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
+} 
+.menu .enlaces a:hover{
+    color: var(--color-primario);
+}
+
+/* interactividad js */
+.headroom {
+    will-change: transform;
+    transition: transform 0.3s ease;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+
+/* estilos css para movil: utilizando responsive web design */
+@media screen and (max-width: 1023px){
+
+    header .menu{
+        flex-direction: column;
+    }
+
+    header .menu .logo{
+        display: flex;
+        flex-direction: row;
+
+                         /* separacion */
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    header .menu .logo .btn-menu{
+        display: inline-block;
+        margin-top: .4em;
+    }
+
+    header .menu .enlaces{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+        /* pie pagina */
+.pie_pagina{
+    padding: 20px 0px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.pie_pagina .redes_sociales{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.pie_pagina .redes_sociales i{
+    color: white;
+    font-size: 30px;
+    padding: 0px 25px;
+}
+
+.pie_pagina, .pie_texto{
+    text-align: center;
+    font-size: 13px;
+    color: white;
+}
+
+footer p.h5{
+    text-align: justify;
+    padding-left: 30%;  
+}
+
+.main, p{
+    color: white;
+}
+.main:hover{
+    color: red;
+}
+
+
+footer .main{
+    margin: auto;
+    text-decoration: none;
+    padding-left: 30%;
+} 
+
+/* footer, .enlace:hover{
     color: black;
-    text-decoration: none;  
+} */
+footer{
+    padding-bottom: 30px;
+    background-color: black;
+    padding: 30px 0 60px 0;
+  }
+.icono{
+    color: white;
+    font-size: 50px;
+    position: absolute;
     margin: 0 0 0 100px;
 }
-.imagen{
-    margin: 0 400px 0 100px;
+.pie_pagina{
+    background-color: rgb(24, 22, 22);
+    display: flex;
+    padding: 5px 0 1px 0;
+}
+.texto1{
+    margin-left: 50px;
+}
+.texto2{
+    margin-left: 1000px;
+}
+.texto3{
+    margin-left: 5px;
+    color: red;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 5px;
+    text-align: center;
+}
+img{
+    border-radius: 5px;
+}
+
+input{
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    color: red;
+    font-weight: 2px;
+    display: block;
+}
+/* .btn{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    text-align: center;
+    display: block;
+} */
+h5{
+    text-align: center;
+    font-size: 15px;
+    text-decoration: underline;
+    text-decoration-color: blue;
 }
