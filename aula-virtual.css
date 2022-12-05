@@ -1,3 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/fondo-login.jpg);
+    background-size: cover;
+}
+
+.cajita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .formulario{
     position: absolute;
     top: 200px;

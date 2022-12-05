@@ -239,10 +239,6 @@ section{
     color: white;
 }
 
-
-
-
-
 footer p.h5{
     text-align: justify;
     padding-left: 30%;  
@@ -256,7 +252,6 @@ main{
 .main:hover{
     color: red;
 }
-
 
 footer a{
     margin: auto;
