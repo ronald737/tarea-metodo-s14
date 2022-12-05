@@ -7,8 +7,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="/bootstrap.css">
     <link rel="stylesheet" href="/fontawesome.css">
-    <link rel="stylesheet" href="/portadas.css">
+    
     <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="/portadas.css">
 
 </head>
 </head>
@@ -16,39 +19,28 @@
   <a href="https://whatsapp.com" class="btn-wsp" target="_blank">
     <i class="fa-brands fa-whatsapp"></i>
  </a>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img class="imagen" src="/navandfooter/img/Logo.svg" alt="" width="200" height="60">
+   <!--NAVEGADOR-->
+   <header id="header">
+    <nav class="menu">
+        <div class="logo">
+            <a href="/index.html">
+                <img src="/img/Logo.svg" alt="" class="img-fluid logos">
             </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="enlace" href="/index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="enlace " href="/cursos.html">Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="enlace" href="/especializaciones.html">Especializaciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="enlace" href="/contactos.html">Contactos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="enlace" href="/aula-virtual.html">Aula Virtual</a>
-                    </li>
-                </ul>
-
-            </div>
+            <a href="#" class="btn-menu" id="btn-menu">
+                <i class="fa-solid fa-bars icono-menu"></i>
+            </a>
         </div>
+
+        <div class="enlaces" id="enlaces">
+            <a href="/index.html">Inicio</a>
+            <a href="/cursos.html">Cursos</a>
+            <a href="/especializaciones.html">Especializaciones</a>
+            <a href="/contactos.html">Contacto</a>
+            <a href="/aula-virtual.html">Aula Virtual</a>
+        </div>
+
     </nav>
+</header>
     <br><br>
     <script src="js/bootstrap.js"></script>
 
@@ -276,5 +268,7 @@
     
         </div>
     
+        <script src="js/headroom.min.js"></script>
+        <script src="js/menu-flex.js"></script>
 </body>
 </html>
