@@ -1,6 +1,6 @@
-*{
+/* *{
     font-family: 'Poppins';
-} 
+}  */
 
 /*ESTILOS PORTADA*/
 
@@ -72,29 +72,7 @@
     font-weight: 400;
 }
 
-/* .boton1{
-    position: relative;
-    background-color: red;
-    text-decoration: none;
-    color: white;
-    font-family: 'Poppins';
-    padding: 10px;
-    border-radius: 5px; 
-    margin-left: 500px ;
-    
-} */
-/* .boton2{
-    position: relative;
-    background-color: red;
-    text-decoration: none;
-    color: white;
-    font-family: 'Poppins';
-    padding: 10px;
-    border-radius: 5px;
-    position: relative;
-    display: inline-block;
-   
-} */
+
 
 /* estilos de cursos */
 
@@ -192,6 +170,7 @@ section{
     margin-right: 10px;
     margin-bottom: 15px;
     background: none;
+    font-family: 'Poppins';
 }
 .a1:hover{
     color: red;
