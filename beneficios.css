@@ -175,9 +175,12 @@ section{
 .a1:hover{
     color: red;
 }
-.container .row a:hover{
+.container .row .a1:hover{
     background-color: red;
     color: white;
+}
+.container .row .main:hover{
+    color: red;
 }
 
 .boton-cursos{
