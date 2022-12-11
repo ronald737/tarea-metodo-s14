@@ -1,8 +1,18 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/fondo-login.jpg);
+    background-size: cover;
 }
+
+.cajita{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .formulario{
     position: absolute;
     top: 200px;
@@ -16,7 +26,7 @@
     box-shadow: 4px 4px 20px black;
  }
  
- .logo{
+ .logotipo{
      width: 20%;
      margin: 5px 300px;
  }
@@ -31,8 +41,6 @@
      border-radius: 5px;
      border: none;
      border: 1px solid red;
- 
-   
  }
  label{
      width: 100%;

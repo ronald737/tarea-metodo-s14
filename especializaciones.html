@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/nav.css">
+    <title>Especializaciones</title>
+    
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./bootstrap.css">
     <link rel="stylesheet" href="/fontawesome.css">
     <link rel="stylesheet" href="/especializaciones.css">
 
-    <link rel="stylesheet" href="/portadas.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/812c8ee19a.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" href="/portadas.css">
 
 
 </head>
@@ -19,39 +22,28 @@
     <a href="https://whatsapp.com" class="btn-wsp" target="_blank">
         <i class="fa-brands fa-whatsapp"></i>
      </a>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img class="imagen" src="/navandfooter/img/Logo.svg" alt="" width="200" height="60">
+   <!--NAVEGADOR-->
+   <header id="header">
+    <nav class="menu">
+        <div class="logo">
+            <a href="/index.html">
+                <img src="/img/Logo.svg" alt="" class="img-fluid logos">
             </a>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="enlace" href="/index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="enlace " href="/cursos.html">Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="enlace" href="/especializaciones.html">Especializaciones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="enlace" href="/contactos.html">Contactos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="enlace" href="/aula-virtual.html">Aula Virtual</a>
-                    </li>
-                </ul>
-
-            </div>
+            <a href="#" class="btn-menu" id="btn-menu">
+                <i class="fa-solid fa-bars icono-menu"></i>
+            </a>
         </div>
+
+        <div class="enlaces" id="enlaces">
+            <a href="/index.html">Inicio</a>
+            <a href="/cursos.html">Cursos</a>
+            <a href="/especializaciones.html">Especializaciones</a>
+            <a href="/contactos.html">Contacto</a>
+            <a href="/aula-virtual.html" target="_blank">Aula Virtual</a>
+        </div>
+
     </nav>
+</header>
     <br><br>
 
     <div class="main3-banner">
@@ -71,7 +63,7 @@
 
     <script src="js/bootstrap.js"></script>
 
-    <h1><strong>Elige tu àrea de interès</strong></h1>
+    <h1>Elige tu área de interés</h1>
     <br>
     <div class="container">
         <div class="row">
@@ -168,31 +160,35 @@
         <!-- PIE DE PAGINA -->
     <footer>
         <br></br>
-        <div class="container-fluid ">
+        <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-md-12 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-1">
                     <i class="icono fa-solid fa-mobile-screen-button"></i>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3">
                     <p class="h5">Contacto</p>
                     <div>
                         <a href="#" class="main">+51 939 123 987</a>
                     </div>
                     <div>
-                        <a href="#" class="main">+51 939 132 987 (Whatsapp)</a>
-                    </div>
-                   
+                        <a href="#" class="prueba">51 939 132 987 (Whatsapp)</a>
+                    </div>                  
                 </div>
 
-                <div class="col-xs-12 col-md-12 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-1">
                     <i class="icono fa-solid fa-envelope"></i>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3">
                     <p class="h5">E-Mail</p>
                     <div>
                         <a href="#" class="main">devlab.pe@gmail.com</a>
-                    </div>
-                    
+                    </div>                    
                 </div>
 
-                <div class="col-xs-12 col-md-12 col-lg-4">
+                <div class="col-xs-12 col-sm-12 col-md-1">
                     <i class="icono fa-solid fa-location-dot"></i>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3">
                     <p class="h5">Dirección</p>
                     <div>
                         <a href="#" class="main">Lima - Perú</a>
@@ -208,5 +204,7 @@
     </div>
 
     
+    <script src="js/headroom.min.js"></script>
+    <script src="js/menu-flex.js"></script>
 </body>
 </html>
